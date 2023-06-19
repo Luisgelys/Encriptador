@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="caja-logo">
+            <h1><img src="imagenes/Vector.png" alt="Logo Alura" class="logo"></h1>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="texto">
+            <textarea name="textarea" id="mensaje" cols="80" rows="30" placeholder="Ingrese el texto aqui"></textarea>
+        </div>
+
+        <div class="minusculas">
+            <h1><img src="imagenes/Vector1.png" alt=""> Solo letras minúsculas y sin acentos</h1>
+        </div>
+
+        <div class="caja-botones">
+            <input type="submit" value="Encriptar" class="encriptar">
+            <input type="submit" value="Desencriptar" class="desencriptar">
+        </div>
+
+        <div class="caja-muñeco">
+            <textarea name="textarea" id="mensaje" cols="30" rows="30"></textarea>
+            <img src="imagenes/Muñeco.png" alt="" class="muñeco">
+            <h1 class="no-encontrado">Ningun mensaje fue encontrado</h1>
+            <h1 class="ingrese-texto">Ingresa el texto que desees encriptar o desencriptar</h1>
+        </div>
+
+        <script>
+            function encriptar(letras) {
+                var letras = document.querySelector("textarea");
+                if (letras = "a") {
+                    letras = letras + "bbb";
+                } else {
+                    return false
+                }
+            }
+
+            var button = document.querySelector("Encriptar");
+            button.onclick = encriptar;
+
+
+        </script>
+
+    </main>
+
+    <footer>
+        <p class="copyright">&copy Copyright Luisgelys Avila - 2023</p>
+    </footer>
+</body>
+
+</html>
