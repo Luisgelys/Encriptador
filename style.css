@@ -20,7 +20,7 @@ main {
 
 }
 
-.textarea {
+.textArea {
     border: none;
     color: #0A3871;
     margin-top: 10%;
@@ -28,7 +28,7 @@ main {
 }
 
 ::placeholder { color: #0A3871;}
-.textarea:focus {
+.textArea:focus {
     outline: none;
 }
 
@@ -82,7 +82,7 @@ main {
     outline: none;
 }
 
-.btn-copiar {
+.copiar {
     background-color: #0A3871;
     border: 1px solid #0A3871;
     border-radius: 24px;
